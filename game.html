@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tic Tac Toe</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Our CSS file -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="col-lg-3">
+        <h1>Current Player</h1>
+        <div class="current-player-indicator"></div>
+
+        <label>first user name: <span class="player1"></span> <br>
+            <input type="text" class="player1"></label>
+        <br>
+        <label>second user name: <span class="player2"></span> <br>
+            <input type="text" class="player2"></label>
+        <br>
+        <button class="btn btn-start-game">Start game</button>
+        <h1 class="result"></h1>
+    </div>
+    <div class="col-lg-9">
+        <br/><br/>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <br>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <br>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <br>
+    </div>
+</div>
+<!-- importing jQuery -->
+<script src="./js/lib/jquery-3.0.0.min.js"></script>
+<!-- Our JS file-->
+<script src="./js/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.box {
+    border: 1px solid black;
+    display: inline-block;
+    height:150px;
+    width: 150px;
+    margin: -3px;
+}
+
+.blue {
+    background-color:blue;
+}
+.red {
+    background-color: red;
+}
+
+
+.current-player-indicator{
+    width: 150px;
+    height: 150px;
+}
+
